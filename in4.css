@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+h2{ font-size: 2.7em;}
+p{  font-size: 1.25em;}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)  
+    )
+    ,url("Imagenes/BiodiversidadMex.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+#Mexico .container{
+    text-align: center;
+    padding: 200px 12px;
+}    
